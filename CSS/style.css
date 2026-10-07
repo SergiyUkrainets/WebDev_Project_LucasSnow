@@ -1,0 +1,41 @@
+header {
+    
+    background-image:url("../images/pexels-oscar-due-wang-68066-240160.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+nav{
+    top:150px;
+    text-align:center;
+    position: relative;
+    word-spacing:40px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#DBDBDB
+    
+}
+h2{
+    text-align: center;
+}
+main{
+    text-align:center;
+    background-color:#BCD3F7;
+
+}
+#activities{
+     word-spacing:40px;
+     text-align:center;
+}
+section{
+    background-color:#BCD3F7;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
