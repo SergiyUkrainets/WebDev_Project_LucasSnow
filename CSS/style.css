@@ -27,6 +27,9 @@ h2{
 main{
     text-align:center;
     background-color:#BCD3F7;
+    background-size: cover;
+    background-position: center;
+    padding: 75px;
 
 }
 #activities{
@@ -38,4 +41,17 @@ section{
     background-size: cover;
     background-position: center;
     padding: 10px;
+}
+div button{
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+}
+div button:hover{
+    background-color: blue;
+}
+div button:active{
+    transform: scale(0.95);
 }
