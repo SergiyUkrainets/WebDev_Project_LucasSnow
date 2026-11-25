@@ -55,3 +55,139 @@ div button:hover{
 div button:active{
     transform: scale(0.95);
 }
+
+.card {
+    border: 1px solid #d9deea;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: white;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-header img {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.card-header h3 {
+    font-size: 17px;
+}
+
+.card-header span {
+    margin-left: auto;
+    font-size: 25px;
+}
+
+.card p {
+    color: #52658d;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.tags span {
+    border: 1px solid #d9deea;
+    border-radius: 4px;
+    padding: 5px 8px;
+    font-size: 13px;
+    color: #405477;
+}
+
+.destinations {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 599px) {
+
+    header {
+        padding: 100px 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+        top: -50px;
+    }
+
+    nav {
+        top: 50px;
+        word-spacing: 10px;
+        font-size: 12px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .destinations {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #activities {
+        word-spacing: 10px;
+    }
+}
+
+h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        word-spacing: 20px;
+    }
+
+    main {
+        padding: 35px;
+    }
+
+    .destinations {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 1 40%;
+        box-sizing: border-box;
+    }
+
+
+/* DESKTOP */
+@media screen and (min-width: 1025px) {
+
+    .destinations {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .card {
+        flex: 1;
+    }
+
+
+
+
+
+
