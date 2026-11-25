@@ -116,62 +116,73 @@ div button:active{
 }
 
 
-/* MOBILE */
+/* MOBILE DEVICES */
 @media screen and (max-width: 599px) {
 
+    /* HEADER */
     header {
-        padding: 100px 15px;
+        padding: 100px 10px;
+        background-size: cover;
+        background-position: center;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 26px;
         top: -50px;
     }
 
+    /* NAVIGATION */
     nav {
-        top: 50px;
-        word-spacing: 10px;
+        top: 40px;
+        word-spacing: 8px;
         font-size: 12px;
     }
 
-    main {
-        padding: 20px;
+    nav a {
+        display: inline-block;
+        margin: 3px;
     }
 
+    /* MAIN CONTENT */
+    main {
+        padding: 20px 10px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    /* DESTINATIONS */
     .destinations {
         flex-direction: column;
+        gap: 15px;
     }
 
     .card {
         width: 100%;
+        flex: none;
         box-sizing: border-box;
+        padding: 15px;
     }
 
+    .card p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* ACTIVITIES */
     #activities {
-        word-spacing: 10px;
+        word-spacing: 8px;
+        line-height: 2;
     }
+
+    /* BUTTONS */
+    div button {
+        padding: 10px;
+        margin: 8px;
+    }
+
 }
-
-h1 {
-        font-size: 30px;
-    }
-
-    nav {
-        word-spacing: 20px;
-    }
-
-    main {
-        padding: 35px;
-    }
-
-    .destinations {
-        flex-wrap: wrap;
-    }
-
-    .card {
-        flex: 1 1 40%;
-        box-sizing: border-box;
-    }
 
 
 /* DESKTOP */
@@ -185,6 +196,7 @@ h1 {
     .card {
         flex: 1;
     }
+}
 
 
 
